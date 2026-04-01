@@ -5,9 +5,7 @@ config;
 configplot;
 set(groot, 'defaultScatterMarkerFaceAlpha', 0.1);
 
-load psm.mat;
-
-vec = s4(2,:);
+vec = S(2,:);
 S = [1,                         vec(1) * exp(1j * vec(3));
      vec(1) * exp(1j * vec(3)), vec(2) * exp(1j * vec(4))];
 

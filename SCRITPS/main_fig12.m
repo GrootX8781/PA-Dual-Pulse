@@ -5,11 +5,9 @@ rng(1);
 config;
 configplot;
 
-load psm.mat;
-
 %% =========================================================
 % True target PSM
-vec = s1(2, :);
+vec = S(2, :);
 k   = vec(1);
 rs  = vec(2);
 phx = vec(3);

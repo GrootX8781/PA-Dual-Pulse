@@ -1,16 +1,13 @@
 clc; clear; close all;
 rng(1);
 
-
-
 %% basic config
 config;
 configplot;
 
-load psm.mat;
 
 %% true target PSM
-vec = s1(2, :);
+vec = S(2, :);
 k   = vec(1);
 rs  = vec(2);
 phx = vec(3);

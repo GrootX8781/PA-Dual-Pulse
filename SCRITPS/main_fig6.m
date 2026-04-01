@@ -4,9 +4,7 @@ clc; clear; close all
 config;
 configplot;
 
-load psm.mat;
-
-s = s1(2, :);
+s = S(2, :);
 [s1, s2, s3, s4] = deal(s(1), s(2), s(3), s(4));
 [~, ~, bound] = sv_info(s1, s2, s3, s4);
 S = [1,                 s1 * exp(1j * s3);

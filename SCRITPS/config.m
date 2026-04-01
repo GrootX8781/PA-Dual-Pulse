@@ -1,5 +1,7 @@
 % ===================== config.m  =====================
 % 统一参数配置（按需修改）
+% 请自主输入目标PSM 形式为2X2矩阵
+
 c   = 3.0e8;
 T   = 10e-6;
 B   = 50e6;
@@ -26,7 +28,6 @@ tau = 0.5e-6;
 cycle = tau / Ts;
 INR_isrj = SNR + JSR;
 delta_isrj = 0;
-
 
 delay_samples = round(2 * r / c * fs);
 N_PRI         = round(PRI * fs);

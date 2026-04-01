@@ -4,9 +4,7 @@ clc; clear; close all;
 config;
 configplot;
 
-load psm.mat;
-
-vec = s1(2,:);
+vec = S(2,:);
 k   = vec(1);  rs = vec(2);  phx = vec(3);  phv = vec(4);
 S   = [1,                 k  * exp(1j * phx);
        k * exp(1j * phx), rs * exp(1j * phv)];
