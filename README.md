@@ -21,6 +21,11 @@ The implemented framework follows a dual-pulse cooperative logic:
 - `README.md`  
   Repository description.
 
+## Requirements
+
+- MATLAB
+- CVX
+
 ## Usage
 
 1. Open MATLAB and set the project root as the current folder.
@@ -32,9 +37,7 @@ The implemented framework follows a dual-pulse cooperative logic:
 - `config.m` is the main configuration file.
 - `configplot.m` is used for plotting configuration.
 - Before running the scripts, please manually define the target PSM in `config.m`.
-- The PSM should be given as a **2¡Á2 matrix** and stored in the variable:
-
-  `S`
+- The PSM should be given as a `2x2` matrix and stored in the variable `S`.
 
 ## Notes
 
